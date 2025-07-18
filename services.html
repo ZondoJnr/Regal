@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Services - Regal Protection Security Services</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <style>
+    .carousel-item {
+      position: relative;
+    }
+    .carousel-item::before {
+      content: "";
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      z-index: 1;
+    }
+    .glass-overlay {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 2;
+      padding: 2rem 3rem;
+      border-radius: 15px;
+      color: #fff;
+      text-align: center;
+      max-width: 80%;
+      background: rgba(0, 0, 0, 0.3);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+    .glass-overlay h2 {
+      font-weight: bold;
+      font-size: 2rem;
+    }
+    .glass-overlay p {
+      font-size: 1.1rem;
+      margin-top: 0.5rem;
+    }
+    body {
+      scroll-behavior: smooth;
+      text-align: center;
+    }
+    .navbar, footer {
+      background-color: white !important;
+    }
+    .navbar-brand, .nav-link, footer {
+      color: black !important;
+    }
+    .section {
+      padding: 60px 20px;
+    }
+    .section:nth-child(even) {
+      background-color: #f8f9fa;
+    }
+    .card-img-top {
+      height: 200px;
+      object-fit: cover;
+    }
+    .footer-link {
+      color: black;
+      text-decoration: underline;
+    }
+    .btn-danger, .btn-primary {
+      border-radius: 0;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg fixed-top shadow-sm">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center" href="#">
+      <img src="images/logo.png" alt="Logo" class="me-2" style="height: 40px;">
+      <div class="d-flex flex-column lh-sm">
+        <strong style="line-height: 1;">Regal Protection</strong>
+        <small style="line-height: 1;">security services</small>
+      </div>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="our-story.html">Our Story</a></li>
+        <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Additional Services Summary Section -->
+<section class="section bg-light text-start">
+  <div class="container">
+    <h2 class="mb-4 text-center">Full-Spectrum Security Overview</h2>
+    <p class="lead">
+      Regal Security Services is a leading private and commercial security provider offering an extensive range of tailored and advanced protection solutions.
+      With a client-focused approach, the company prioritizes long-term relationships, service excellence, and the strategic application of technology and personnel
+      across multiple industries, including banking, logistics, retail, residential estates, schools, and hospitality sectors.
+    </p>
+    <p class="lead">
+      The company offers a full spectrum of services including armed reaction, guarding (both commercial and residential), off-site monitoring, surveillance via drones and CCTV, cyber security, incident response, VIP protection, secure transportation, crowd control, search and rescue, and specialized anti-hijacking operations.
+      A standout feature is their elite Rapid Intervention Unit, designed to address high-risk scenarios such as protest action, public patrols, infrastructure protection, and evacuation missions.
+      This unit utilizes advanced equipment and highly trained tactical teams for swift, decisive response.
+    </p>
+    <p class="lead">
+      Regal’s Armed Reaction division maintains a significant fleet of response vehicles fitted with satellite tracking and communication tech.
+      Officers are tactically trained and well-equipped with firearms, vests, and essential gear to ensure readiness and safety.
+      Their Special Operations Teams (SOT) include tactical and armed personnel offering armed escorts, business lockups, shows of force, and VIP close protection.
+      These teams also play a pivotal role in public space crime-fighting and dedicated area initiatives.
+    </p>
+    <p class="lead">
+      A key strength lies in Regal’s off-site surveillance and monitoring services. The company operates an intelligent Smart Surveillance system that proactively detects threats and alerts their 24/7 command centre before crimes can occur.
+      Drones with thermal imaging enhance aerial surveillance, while CCTV systems are supported by real-time operators, ensuring infrastructure and perimeter security across large-scale environments.
+    </p>
+    <p class="lead">
+      Specialist divisions have been established for estate security, school and campus protection, and special events.
+      These teams receive site-specific training, adhere to strict vetting processes, and are guided by dedicated management units to meet the unique needs of each environment.
+      Additional services include livestock removal, lawful evictions, counter land invasion operations, and risk assessment consulting.
+    </p>
+    <p class="lead">
+      Training is a core pillar at Regal, with an accredited academy offering induction, firearms proficiency, tactical training, and continuous development.
+      A learnership programme further empowers youth with security qualifications and practical experience.
+      The company complies with national statutory and industry standards, holding multiple certifications for security operations, technology, and training.
+    </p>
+    <p class="lead">
+      Regal’s integrated approach combines highly trained personnel, advanced technology, and proactive security strategies, making it a trusted partner in navigating South Africa’s complex security landscape.
+      From basic guarding to high-risk tactical interventions, the company’s solutions are designed to protect people, property, and public spaces with professionalism and precision.
+    </p>
+  </div>
+</section>
+
+<!-- Services Section -->
+<section class="section" id="services">
+  <div class="container">
+    <h2 class="mb-5">Our Security Services</h2>
+    <div class="row">
+
+      <div class="col-md-4 mb-4">
+        <div class="card shadow">
+          <img src="images/antihijack.jpg" class="card-img-top" alt="Armed Reaction">
+          <div class="card-body">
+            <h5 class="card-title">Anti Hijack Division</h5>
+            <p class="card-text">Our vehicle anti-hijack unit is a specialized team dedicated to safe-guarding clients against hijackings. We offer armoured escourts, tracking, panic button response, and training, ensuring client's safety.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card shadow">
+          <img src="images/armed.jpg" class="card-img-top" alt="Armed Reaction">
+          <div class="card-body">
+            <h5 class="card-title">Armed Reaction</h5>
+            <p class="card-text">24/7 tactical response teams equipped with advanced weapons and tracking systems.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card shadow">
+          <img src="images/guarding.jpg" class="card-img-top" alt="Guarding Services">
+          <div class="card-body">
+            <h5 class="card-title">Guarding</h5>
+            <p class="card-text">Trained static and mobile guards for estates, commercial sites, and private residences.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card shadow">
+          <img src="images/cctv.jpg" class="card-img-top" alt="Monitoring">
+          <div class="card-body">
+            <h5 class="card-title">24/7 Monitoring</h5>
+            <p class="card-text">CCTV surveillance, alarms, and off-site response through our Regal Command Centre.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card shadow">
+          <img src="images/eviction.jpg" class="card-img-top" alt="Monitoring">
+          <div class="card-body">
+            <h5 class="card-title">Lawful evictions</h5>
+            <p class="card-text">A comprehensive approach to addressing land invasion in South Africa.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card shadow">
+          <img src="images/livestock.jpg" class="card-img-top" alt="Monitoring">
+          <div class="card-body">
+            <h5 class="card-title">Removal of Livestock</h5>
+            <p class="card-text">The removal of livestock service aims to address the issue of illegal land occupation by individuals who have bought livestock without the owner's consent.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card shadow">
+          <img src="images/VIP protection.jpg" class="card-img-top" alt="VIP Protection">
+          <div class="card-body">
+            <h5 class="card-title">VIP Protection</h5>
+            <p class="card-text">Close protection officers and secure escort for executives, dignitaries and events.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card shadow">
+          <img src="images/training.jpg" class="card-img-top" alt="Training Academy">
+          <div class="card-body">
+            <h5 class="card-title">Training Academy</h5>
+            <p class="card-text">PSIRA-accredited training in firearms, tactical driving, site protocols and first aid.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="mt-4">
+      <a href="contact.html" class="btn btn-danger">Request a Custom Security Plan</a>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="text-center py-4 mt-5">
+  <div class="container">
+    <p class="mb-0">&copy; 2025 Regal Protection-Security Services. All rights reserved. | Website by <a href="https://www.calebzondo.site" class="footer-link" target="_blank">Ruach Digital</a></p>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
